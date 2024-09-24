@@ -1,0 +1,19 @@
+{
+  "name": "fatimacypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",             
+    "headTest": "npm run test -- --headed",              
+    "chromeTest": "npm run headTest -- --browser chrome"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
